@@ -1,0 +1,59 @@
+.impression {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.desc {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-left: 200px;
+
+  /* align-items: center; */
+}
+
+.text {
+  width: 50%;
+
+}
+
+.title {
+  font-size: 40px;
+}
+
+.subtitle {
+  font-size: 36px;
+  font-weight: 800;
+  opacity: 0.7;
+}
+
+.secondsec {
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.midnav {
+  display: flex;
+  gap: 10px;
+}
+
+.navtext {
+  font-size: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  /* color: #333; */
+}

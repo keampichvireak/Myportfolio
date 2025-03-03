@@ -1,0 +1,40 @@
+input {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: none;
+  padding: 10px;
+  box-shadow: 0 0 0 1px transparent;
+  background-color: #f3f3f3;
+  width: 100%;
+  color: black;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 10px #007bff;
+}
+::placeholder {
+  font-size: 15px;
+}
+textarea {
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  padding: none;
+  padding: 10px;
+  box-shadow: 0 0 0 1px transparent;
+  background-color: #f3f3f3;
+  width: 100%;
+}
+
+textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #007bff;
+}
+
+label {
+  font-family: cursive;
+  color: white;
+  margin-top: 10px;
+}
